@@ -3,5 +3,5 @@ name=MiceTimer Daemon
 version=${VERSION}
 versionCode=${V_CODE}
 author=cagedbird043
-description=The heartbeat of Mice-Tailor-Infra. High-reliability timer daemon for Android.
+description=The heartbeat of CagedBird-Lab. High-reliability timer daemon for Android.
 updateJson=https://miceworld.top/micetimer/update.json

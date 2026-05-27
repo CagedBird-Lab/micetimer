@@ -38,14 +38,14 @@ WakeLock = true
 
 本项目目前主要作为 **KernelSU (KSU)** 模块分发：
 
-1. 从 [Releases](https://github.com/Mice-Tailor-Infra/micetimer/releases/tag/nightly) 下载最新的 `micetimer-ksu-nightly.zip`。
+1. 从 [Releases](https://github.com/CagedBird-Lab/micetimer/releases/tag/nightly) 下载最新的 `micetimer-ksu-nightly.zip`。
 2. 在 KernelSU 管理管理器中安装。
 3. 模块会自动创建 `/data/adb/micetimer/` 目录结构。
 4. 将你的定时器配置文件放入 `/data/adb/micetimer/timers.d/` 即可。
 
 ## 🏗️ 项目架构
 
-本仓库属于 [Mice-Tailor-Infra](https://github.com/Mice-Tailor-Infra) 基础设施的一部分，与其他项目配合实现网络自动化优化。
+本仓库属于 [CagedBird-Lab](https://github.com/CagedBird-Lab) 基础设施的一部分，与其他项目配合实现网络自动化优化。
 
 - **源码**：`src/main.rs` (核心调度逻辑)
 - **模板**：`ksu-template/` (KSU 模块结构)
